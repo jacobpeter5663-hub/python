@@ -144,3 +144,18 @@ elif age <= 12:
     print("Ticket Fare = Rs. 50")
 else:
     print("Ticket Fare = Rs. 100")
+
+#task 9
+
+# Bank Loan Approval
+
+salary = float(input("Enter your monthly salary: "))
+credit_score = int(input("Enter your credit score: "))
+
+if salary > 30000:
+    if credit_score > 700:
+        print("Loan Approved")
+    else:
+        print("Loan Rejected (Credit score is too low)")
+else:
+    print("Loan Rejected (Salary is below Rs. 30,000)")
