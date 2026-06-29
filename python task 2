@@ -16,6 +16,7 @@ else:
 '''amount=int(input("enter amount:"))
 if amount>=5000:
     discount=amount*0.10
+
     finalamount=amount-discount
     print("discount:",discount)
     print("finalamount:",finalamount)
@@ -159,3 +160,18 @@ if salary > 30000:
         print("Loan Rejected (Credit score is too low)")
 else:
     print("Loan Rejected (Salary is below Rs. 30,000)")
+
+#task 10
+
+# College Admission Eligibility
+
+academic = float(input("Enter academic percentage: "))
+entrance = float(input("Enter entrance exam score: "))
+
+if academic > 60:
+    if entrance > 70:
+        print("Admission Approved")
+    else:
+        print("Admission Rejected (Entrance exam score is below 70)")
+else:
+    print("Admission Rejected (Academic percentage is below 60)")
