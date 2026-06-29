@@ -133,5 +133,14 @@ elif units <= 300:
     bill = (100 * 1.50) + (100 * 2.50) + (units - 200) * 4.00
 else:
     bill = (100 * 1.50) + (100 * 2.50) + (100 * 4.00) + (units - 300) * 6.00
-
 print("Electricity Bill = Rs.", bill)
+
+#Task 8
+age = int(input("Enter your age: "))
+
+if age < 5:
+    print("Ticket Fare = Free")
+elif age <= 12:
+    print("Ticket Fare = Rs. 50")
+else:
+    print("Ticket Fare = Rs. 100")
