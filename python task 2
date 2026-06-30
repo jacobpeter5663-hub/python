@@ -274,3 +274,19 @@ if experience > 3:
 else:
     print("Not Eligible - Experience is 3 Years or Less")
 
+
+#task 18
+
+
+hall_ticket = input("Is the hall ticket available? (yes/no): ")
+fees = input("Have all fees been cleared? (yes/no): ")
+
+if hall_ticket == "yes":
+    if fees == "yes":
+        print("Exam Access Granted")
+    else:
+        print("Fees Not Cleared")
+else:
+    print("Hall Ticket Not Available")
+
+
