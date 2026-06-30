@@ -215,3 +215,22 @@ if balance >= 1000:
         print("Invalid PIN")
 else:
     print("Insufficient Balance")
+
+
+#task 14
+
+username = input("Enter username: ")
+password = input("Enter password: ")
+otp = int(input("Enter OTP: "))
+
+if username == "admin":
+    if password == "12345":
+        if otp == 1111:
+            print("Login Successful")
+        else:
+            print("Invalid OTP")
+    else:
+        print("Invalid Password")
+else:
+    print("Invalid Username")
+
