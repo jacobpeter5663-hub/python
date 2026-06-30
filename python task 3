@@ -1,0 +1,43 @@
+
+#task 1
+for i in range(5):
+ print("jacob")
+
+#task 2
+for i in range(1,21):
+    print(i)
+
+#task 3
+for i in range(20,0,-1):
+    print(i)
+
+#task 4
+for i in range(1,51,2):
+ print(i)
+
+ #task 5
+ for i in range(1,51,2):
+     print(i)
+
+#task 6
+sum=0
+for i in range (1,11):
+    sum=sum+i
+    print (sum)'''
+
+#task 7
+num=int(input("enter number:"))
+for i in range (1.11):
+    print(num,"x",i,"=",num*i)
+
+
+
+word=input("enter word:")
+for i in word:
+    print(i)
+
+ #task 12
+for i in range(1,6):
+    for j in range(i):
+        print("*",end=" ")
+    print()
