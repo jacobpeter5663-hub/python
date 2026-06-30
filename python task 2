@@ -189,3 +189,16 @@ if degree > 65:
         print("Not Recruited - Aptitude score is below 75")
 else:
     print("Not Recruited - Degree percentage is 65 or below")
+
+
+#task 12
+percentage = float(input("Enter your percentage: "))
+attendance = float(input("Enter your attendance percentage: "))
+
+if percentage > 80:
+    if attendance > 75:
+        print("Scholarship Awarded")
+    else:
+        print("Not Eligible - Attendance is 75% or below")
+else:
+    print("Not Eligible - Percentage is 80% or below")
