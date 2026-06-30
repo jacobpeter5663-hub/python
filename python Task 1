@@ -68,3 +68,25 @@ ci = p * ((1 + r / 100) ** t) - p
 
 print("Simple Interest =", si)
 print("Compound Interest =", ci)
+
+#task 7
+
+x = 10
+
+x += 5
+print(x)
+
+x -= 3
+print(x)
+
+x *= 2
+print(x)
+
+x /= 4
+print(x)
+
+x %= 2
+print(x)
+
+x **= 3
+print(x)
