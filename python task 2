@@ -174,4 +174,18 @@ if academic > 60:
     else:
         print("Admission Rejected (Entrance exam score is below 70)")
 else:
-    print("Admission Rejected (Academic percentage is below 60)")
+    print("Admission Rejecte
+d (Academic percentage is below 60)")
+
+#task 11
+
+degree = float(input("Enter degree percentage: "))
+aptitude = float(input("Enter aptitude test score: "))
+
+if degree > 65:
+    if aptitude > 75:
+        print("Candidate Recruited")
+    else:
+        print("Not Recruited - Aptitude score is below 75")
+else:
+    print("Not Recruited - Degree percentage is 65 or below")
