@@ -302,4 +302,17 @@ if selected == "yes":
 else:
     print("Admission Not Selected")
 
+#task 20 
+
+member = input("Are you a premium member? (yes/no): ")
+amount = float(input("Enter purchase amount: "))
+
+if amount > 5000:
+    if member == "yes":
+        print("20% Discount")
+    else:
+        print("10% Discount")
+else:
+    print("No Discount")
+
 
