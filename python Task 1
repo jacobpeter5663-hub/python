@@ -10,3 +10,23 @@ a = a - b
 print("After Swapping")
 print("a =", a)
 print("b =", b)
+
+#task 2
+
+import math
+
+# Rectangle
+l = float(input("Enter length: "))
+w = float(input("Enter width: "))
+print("Rectangle Area =", l * w)
+print("Rectangle Perimeter =", 2 * (l + w))
+
+# Square
+s = float(input("Enter side: "))
+print("Square Area =", s * s)
+print("Square Perimeter =", 4 * s)
+
+# Circle
+r = float(input("Enter radius: "))
+print("Circle Area =", math.pi * r * r)
+print("Circle Circumference =", 2 * math.pi * r)
