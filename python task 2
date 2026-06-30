@@ -247,3 +247,17 @@ if doctor == "yes":
 else:
     print("Doctor Not Available")
 
+
+#task 16 
+
+registered = input("Are you registered? (yes/no): ")
+fees = input("Have you paid the course fees? (yes/no): ")
+
+if registered == "yes":
+    if fees == "yes":
+        print("Access Granted")
+    else:
+        print("Pay the Course Fees")
+else:
+    print("Student Not Registered")
+
