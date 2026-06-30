@@ -234,3 +234,16 @@ if username == "admin":
 else:
     print("Invalid Username")
 
+#task 15
+
+doctor = input("Is the doctor available? (yes/no): ")
+slots = int(input("Enter available slots: "))
+
+if doctor == "yes":
+    if slots > 0:
+        print("Appointment Confirmed")
+    else:
+        print("No Appointment Slots Available")
+else:
+    print("Doctor Not Available")
+
