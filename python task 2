@@ -261,3 +261,16 @@ if registered == "yes":
 else:
     print("Student Not Registered")
 
+#task 17
+
+experience = int(input("Enter years of experience: "))
+rating = int(input("Enter performance rating: "))
+
+if experience > 3:
+    if rating >= 8:
+        print("Eligible for Bonus")
+    else:
+        print("Not Eligible - Performance Rating Below 8")
+else:
+    print("Not Eligible - Experience is 3 Years or Less")
+
