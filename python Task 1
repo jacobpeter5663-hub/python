@@ -30,3 +30,12 @@ print("Square Perimeter =", 4 * s)
 r = float(input("Enter radius: "))
 print("Circle Area =", math.pi * r * r)
 print("Circle Circumference =", 2 * math.pi * r)
+
+#task 3
+
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+c = float(input("Enter third number: "))
+
+avg = (a + b + c) / 3
+print("Average =", avg)
