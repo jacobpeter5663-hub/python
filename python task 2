@@ -202,3 +202,16 @@ if percentage > 80:
         print("Not Eligible - Attendance is 75% or below")
 else:
     print("Not Eligible - Percentage is 80% or below")
+
+#task 13
+
+balance = float(input("Enter account balance: "))
+pin = int(input("Enter PIN: "))
+
+if balance >= 1000:
+    if pin == 1234:
+        print("Transaction Successful")
+    else:
+        print("Invalid PIN")
+else:
+    print("Insufficient Balance")
