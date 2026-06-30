@@ -1,7 +1,12 @@
+
+#task 1 
+
 '''celsius=float(input("enter temp in celsius:"))
 time=int(input("enter time:"))
 farenheit=celsius*1.8+32
 print("temperature in farenheit",farenheit)'''
+
+#task 2
 
 '''principal=float(input("enter the pricipal:"))
 rate=int(input("enter the rate:"))
@@ -9,11 +14,15 @@ times=int(input("enter time:"))
 si=(principal*rate*times)/100
 print("simple interest :",si)'''
 
+#task 3 
+
 '''num=int(input("enter a whole number:"))
 square=num**2
 cube=num**3
 print("square:",square)
 print("cube:",cube)'''
+
+#task 4
 
 '''hours=float(input("enter duration in
  hours:"))
@@ -30,6 +39,8 @@ average=total/3
 print("total:",total)
 print("average:",average) 
 
+#task 5
+
 '''num=int(input("enter 3 digit number"))
 first=num//100
 second=(num//10)%10
@@ -37,6 +48,8 @@ third=num%10
 print("first digit:",first)
 print("second digit:",second)
 print("third digit:",third)'''
+
+#task 6
 
 
 '''a=int(input("enter a value:"))
@@ -46,6 +59,8 @@ b=a^b
 a=a^b
 print("a=",a)
 print("b=",b)'''
+
+#task 7
 
 
 '''number=int(input("enter 2-digit number:"))
