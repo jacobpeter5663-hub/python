@@ -1,0 +1,38 @@
+#task.1
+# a="jacob"
+# print(a.upper())
+# print(a.lower())
+# print(a.isupper())
+# print(a.islower())
+from curses.ascii import isascii, isalnum
+
+#task.2
+# a="JacOb"
+# print(a.swapcase())
+# a="ronaldo"
+# print(a.capitalize())
+# a="dhoni is a cricket player"
+# print(a.title())
+# a="jacob\npeter"
+# print(a)
+# print(a.expandtabs())
+# a="arun"
+# print(a.islower())
+# a="ARUN"
+# print(a.isupper())
+# a="Royal Enfield"
+# print(a.istitle())
+# a= "i am fullstuck devaloper"
+# print(a.casefold())
+# a="1234567890"
+# print(a.isdigit())
+# b="ABCabc"
+# print(b.isalpha())
+# b="jacob"
+# print(f"{b} is a good boy")
+#
+
+
+
+
+
